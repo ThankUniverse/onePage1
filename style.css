@@ -1,0 +1,39 @@
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+/*=====Header====== */
+header, .section4
+{
+	color: white;
+	background-color: #67F3D1;
+}
+li
+{
+	padding:0% 0% 0% 3%;
+	margin: 0px;
+	display: inline;
+}
+ul
+{	
+	padding:0% 0% 0% 70%;
+	margin:0px;
+
+}
+header
+{
+padding: 2% 0% 10% 0%;
+}
+header h1
+{
+text-transform: uppercase;
+font-size: 3em;
+padding-top: 5%;
+}
+
+header h1, header h4
+{
+	text-align: left;
+	padding-left: 5%;
+}
