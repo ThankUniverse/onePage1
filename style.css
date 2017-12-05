@@ -43,14 +43,11 @@ header h1, header h4
 			flex-direction: row;
 			flex-wrap: wrap;
 		}
-		.textTop
+		.textTop /*correpond au texte de la première Div*/
 		{
 			width: 100%;
-		}
-		.plane .database .cubes .puzzle
-		{
-			
-		}
+		}	
+		
 		.section1 h3
 		{
 			text-align: center;
@@ -74,4 +71,101 @@ header h1, header h4
 			width: 50%;
 			font-size: 13px;
 			text-align: center;
+			padding-bottom: 3%;
 		}
+		/*==================================================
+						Section2
+		*/
+		.section2
+		{
+			background-color: #E3E5DF;
+			padding: 5% 5%;
+			text-align: left;
+		}
+		.section2 h3, .section2 h5, .section2 p
+		{
+			padding: 0% 10% 0% 1%;
+		}
+		.section2
+		{
+			display: flex;
+		}
+		.section2 i
+		{
+			font-size: 12em;
+			padding-left: 30%;
+		}
+
+		/*================================================
+						Section 3
+		*/
+		.section3 
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.section3 h3
+		{
+			text-align: center;
+			margin-top: 5%;
+			margin-bottom: 1%;
+		}
+
+		.section3 h5
+		{
+			text-align: center;
+			margin-top: 0px;
+		}
+		.section3 i
+		{
+			color: #67F3D1;
+		}
+		.twelvesIcons
+		{
+			text-align: center;
+			width: 25%;
+			padding-bottom: 4%;
+		}
+/*==================================================
+				Section4
+*/
+		.section4
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			text-align: left;
+			padding: 5% 10%;
+		}
+		.section4 h3
+		{
+			padding-left: 10%;
+		}
+		.section4 a
+		{
+		    border: none;
+		    color: white;
+		    padding: 10px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    
+		}
+		#buttonBlue {
+    background-color: #67F3D1;  
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 5% 70%;
+}
+
+#buttonBlue:hover {
+    background-color: white;
+    color: #67F3D1;
+
+
+
